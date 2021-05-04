@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="539.0" style="-fx-background-color: #2A0033;" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Register">
+    <children>
+        <Pane layoutY="75.0" prefHeight="570.0" prefWidth="539.0">
+            <children>
+                <TextField fx:id="u_name" layoutX="203.0" layoutY="86.0" prefHeight="34.0" prefWidth="281.0" style="-fx-border-color: #9643A9; -fx-background-color: #2A0033; -fx-background-insets: 0; -fx-border-radius: 20;" styleClass="text-input" stylesheets="@style.css" />
+                <Label layoutX="56.0" layoutY="93.0" text="FULL NAME" textFill="#ddd9d9">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="u_email" layoutX="203.0" layoutY="165.0" prefHeight="34.0" prefWidth="281.0" style="-fx-border-color: #9643A9; -fx-background-color: #2A0033; -fx-background-insets: 0; -fx-border-radius: 20;" styleClass="text-input" stylesheets="@style.css" />
+                <Label layoutX="56.0" layoutY="175.0" text="E-MAIL" textFill="#ddd9d9">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="u_birthdayd" layoutX="203.0" layoutY="255.0" prefHeight="34.0" prefWidth="281.0" style="-fx-border-color: #9643A9; -fx-background-color: #2A0033; -fx-background-insets: 0; -fx-border-radius: 20;" styleClass="text-input" stylesheets="@style.css" />
+                <Label layoutX="56.0" layoutY="265.0" text="BIRTHDAY" textFill="#ddd9d9">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="53.0" layoutY="355.0" text="Enter Password" textFill="#ddd9d9">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <PasswordField fx:id="u_password" layoutX="203.0" layoutY="350.0" prefHeight="34.0" prefWidth="281.0" style="-fx-background-color: #2A0033; -fx-border-color: #9643A9; -fx-border-radius: 20; -fx-background-insets: 0000;" styleClass="text-input" stylesheets="@style.css" />
+                <Label layoutX="53.0" layoutY="425.0" text="Re-Enter Password" textFill="#ddd9d9">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <PasswordField fx:id="u_repassword" layoutX="203.0" layoutY="420.0" prefHeight="34.0" prefWidth="281.0" style="-fx-background-color: #2A0033; -fx-border-color: #9643A9; -fx-border-radius: 20; -fx-background-insets: 0000;" styleClass="text-input" stylesheets="@style.css" />
+                <Button fx:id="loiginbtn" layoutX="165.0" layoutY="488.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: #FCBB31;" text="LOG IN" textFill="WHITE" />
+                <Button fx:id="registerbtn" layoutX="299.0" layoutY="488.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="112.0" style="-fx-background-color: #248823;" text="SIGN UP" textFill="WHITE" />
+            </children>
+        </Pane>
+        <Label layoutX="225.0" layoutY="40.0" text="SIGN IN" textFill="#ddd9d9">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="515.0" layoutY="4.0" prefHeight="20.0" prefWidth="21.0" text="X" textFill="#ddd9d9">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
